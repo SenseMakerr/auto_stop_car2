@@ -1,0 +1,8 @@
+<launch>
+
+    <node name="motor_driver" pkg="motor_driver_pkg" type="motor_driver.py" output="screen" />
+    <node name="rc_driver"
+type="rc_driver.py" output="screen" />
+
+
+</launch>
