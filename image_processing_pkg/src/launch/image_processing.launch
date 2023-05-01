@@ -1,9 +1,3 @@
 <launch>
-
-    <node name="rc_controller" pkg="remote_PC" type="rc_controller.py" output="screen" />
     <node name="image_classifier" pkg="image_processing_pkg" type="image_classifier.py" output="screen" />
-    <node pkg="self_driving_rc" pkg="remote_PC" name="rc_selfdriving"
-type="rc_selfdriving.py" output="screen" />
-
-
 </launch>
